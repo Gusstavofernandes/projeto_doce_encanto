@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Notable&family=Passion+One:wght@400;700;900&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+
+
+h1{
+    font-family: "Sekuya", system-ui;
+    text-align: center;
+
+}
+.color{
+    background-color: rgb(255, 250, 240);
+}
+.logo{
+    width: 70px;
+    width: 70px;
+}
+.doc{
+    background-color: rgb(220, 195, 150);
+}
+.primario{
+    border-left: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    border-right: 2px solid white;
+    padding-right: 10px;   
+    font-family: "Sekuya", system-ui;
+    font-size:x-small;
+}
+.burguer{
+    border: none;
+    color: rgb(111, 78, 55);
+    font-weight: 100;
+    font-size: large;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.burguer:hover{
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: rgb(111, 78, 55) 2px solid;
+}
+.carousel-item {
+  height: 600px; 
+}
+.carousel-item img {
+  height: 100%;
+  object-fit: cover; 
+}
+.container{
+    border-radius: 20px;
+    z-index: 10;
+    transform: translateY(-90px);
+}
+.formulario{
+    height: 350px;
+    font-family: "Passion One", sans-serif;
+    color: rgb(111, 78, 55);
+    background-color: rgb(233, 213, 177);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+.caixa{
+    border-radius: 15px;
+    width: 100%;
+    border-style: none;
+}
+.mapa{
+    background-color: rgb(233, 213, 177); 
+    transform: translateX(-30px);
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.apresentacao{
+    font-family: "Passion One", sans-serif;
+    color: rgb(111, 78, 55);
+}
+.enviar{
+    background-color: rgb(195, 121, 96);
+    color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+.enviar:hover{
+    background-color: white;
+    border-color: rgb(195, 121, 96);
+    color: rgb(195, 121, 96);
+}
+ section.valores {
+  width: 70%;
+  max-width: 900px; 
+  margin: 100px auto;
+  text-align: center;
+  display: block;
+}
+
+section.valores {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+section.valores h1 {
+  font-family: "Sekuya", system-ui;
+  color: rgb(111, 78, 55);
+}
+
+
+.tabela-valores {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: "Passion One", sans-serif; 
+}
+
+
+.tabela-valores th {
+  background-color: rgb(111, 78, 55);
+  color: white;
+  padding: 15px;
+  font-weight: 700; 
+}
+
+
+.tabela-valores td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  font-weight: 400;
+}
+
+.tabela-valores tr:hover {
+  background-color: rgb(220, 195, 150);
+}
